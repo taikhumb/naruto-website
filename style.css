@@ -12,7 +12,7 @@ a
 }
 #image
 {
-    height: 70%;
+    height: 30%;
 }
 #image:hover
 {
@@ -27,5 +27,25 @@ hr {
     border: black;
 }
 p {
- font-size: 30px;
+ font-size: 20px;
+
+
+}
+#titla {
+    width: 99%;
+}
+@media only screen and (min-width: 820px) {
+    #image{
+        height: 30%;
+    }
+    p{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    #image{
+        
+        height: 70%;
+    }
+    
 }
