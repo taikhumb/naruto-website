@@ -1,0 +1,43 @@
+body
+{
+    background: linear-gradient(to right, #FF00CC 0%, #333399 100%);
+    text-align: center;
+}
+img{
+    width: 50%;
+}
+ul {
+    list-style: none;
+    padding-bottom: 50px;
+
+}
+li {
+    padding: 50px;
+}
+h1 {
+    font-size: 70px;
+    
+}
+.links{
+    float: left;
+    color: cornflowerblue;
+    padding-top: 5px;
+    padding-left: 7%;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: 'Combo', cursive;
+    font-size: 20px;
+    
+}
+#menu{
+    background-color: black;
+    list-style: none;
+    position: fixed;
+    top:0px;
+    margin-top: 0px;
+    margin: 0px;
+    right: 0px;
+    width: 80%;
+    cursor: pointer;
+    z-index: 2;
+}

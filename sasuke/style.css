@@ -1,0 +1,52 @@
+
+
+#pic {
+    height: 30%;
+}
+#titley
+{
+    height: 5%;
+}
+hr{
+    height: 20px;
+    width: 160px;
+    background-color: black;
+}
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+     ;
+    text-align: center;
+}
+@media only screen and (min-width: 820px){
+    #pic{
+        height: 70%;
+    }
+    p{
+        font-size: 40px;
+    }
+}
+li{
+    float: left;
+    color: cornflowerblue;
+    padding-top: 5px;
+    padding-left: 7%;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: 'Combo', cursive;
+    font-size: 20px;
+    
+}
+ul{
+    background-color: black;
+    list-style: none;
+    position: fixed;
+    top:0px;
+    margin-top: 0px;
+    margin: 0px;
+    right: 0px;
+    width: 80%;
+    cursor: pointer;
+    z-index: 2;
+}
+

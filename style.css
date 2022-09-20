@@ -34,6 +34,16 @@ p {
 #titla {
     width: 99%;
 }
+ul{
+    color: black;
+}
+li{
+    float: left;
+    padding: 10px;
+    list-style: none;
+    font-family: algeria;
+    color: black;
+}
 @media only screen and (min-width: 820px) {
     #image{
         height: 30%;
@@ -48,4 +58,27 @@ p {
         height: 70%;
     }
     
+}
+li{
+    float: left;
+    color: cornflowerblue;
+    padding-top: 5px;
+    padding-left: 7%;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: 'Combo', cursive;
+    font-size: 20px;
+    
+}
+ul{
+    background-color: black;
+    list-style: none;
+    position: fixed;
+    top:0px;
+    margin-top: 0px;
+    margin: 0px;
+    right: 0px;
+    width: 80%;
+    cursor: pointer;
+    z-index: 2;
 }
